@@ -1,361 +1,444 @@
 <!DOCTYPE html>
 <html>
-  <title>Sreenivasulu Gadiboyana</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  <style>
-    html,
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Roboto", sans-serif;
-    }
-  </style>
-  <body class="w3-light-grey">
-    <!-- Page Container -->
-    <div class="w3-content w3-margin-top" style="max-width: 1400px">
-      <!-- The Grid -->
-      <div class="w3-row-padding">
-        <!-- Left Column -->
-        <div class="w3-third">
-          <div class="w3-white w3-text-grey w3-card-4">
-            <div class="w3-display-container"> <div class="w3-display-bottomleft w3-container w3-text-red">
-               
+<title>Sreenivasulu Gadiboyana</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif;
+  }
+</style>
+
+<body class="w3-light-grey">
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width: 1400px">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <div class="w3-display-bottomleft w3-container w3-text-red">
+
             </div>
-              <h2 style="text-align: center;font-weight: bold;">Sreenivasulu Gadiboyana</h2>
-             
-            </div>
-            <div class="w3-container">
-              <p>
-                <i
-                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >Lead Software Developer
-              </p>
-              <p>
-                <i
-                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >Hyderabad, India
-              </p>
-              <p>
-                <i
-                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >srinuintel91@mail.com
-              </p>
-              <p>
-                <i
-                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >+91 - 9642411153
-              </p>
-             <p> <i
-                class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-teal"
-              ></i>
-              <p id="experience" style="margin-left: 38px;margin-top: -36px;"></p>
+            <h2 style="text-align: center;font-weight: bold;">Sreenivasulu Gadiboyana</h2>
+
+          </div>
+          <div class="w3-container">
+            <p>
+              <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Lead Software Developer
             </p>
-              <script>
-                var startDate = new Date("10/04/2014");
-                var diffDate = new Date(new Date() - startDate);
-                var finalexp =
-                  diffDate.toISOString().slice(0, 4) -
-                  1970 +
-                  " Years " +
-                  diffDate.getMonth() +
-                  " Months";
-                // let date1 = new Date("08/04/2014");
-                // let date2 = new Date();
-                // let Difference_In_Time = date2.getTime() - date1.getTime();
-                // let Difference_In_Days = Math.round(
-                //   Difference_In_Time / (1000 * 3600 * 24)
-                // );
+            <p>
+              <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Hyderabad, India
+            </p>
+            <p>
+              <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>srinuintel91@mail.com
+            </p>
+            <p>
+              <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91 - 9642411153
+            </p>
+            <p> <i class="fa fa-suitcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
+            <p id="experience" style="margin-left: 38px;margin-top: -36px;"></p>
+            </p>
+            <script>
+              var startDate = new Date("10/04/2014");
+              var diffDate = new Date(new Date() - startDate);
+              var finalexp =
+                diffDate.toISOString().slice(0, 4) -
+                1970 +
+                " Years " +
+                diffDate.getMonth() +
+                " Months";
+              // let date1 = new Date("08/04/2014");
+              // let date2 = new Date();
+              // let Difference_In_Time = date2.getTime() - date1.getTime();
+              // let Difference_In_Days = Math.round(
+              //   Difference_In_Time / (1000 * 3600 * 24)
+              // );
 
-                // var yearsOfExperience = Math.floor(Difference_In_Days / 365);
-                // var monthsOfExperience = Difference_In_Days % 365;
-                document.getElementById("experience").innerHTML = finalexp;
-                //yearsOfExperience + "." + monthsOfExperience;
-              </script>
+              // var yearsOfExperience = Math.floor(Difference_In_Days / 365);
+              // var monthsOfExperience = Difference_In_Days % 365;
+              document.getElementById("experience").innerHTML = finalexp;
+              //yearsOfExperience + "." + monthsOfExperience;
+            </script>
+            <hr />
+
+            <p class="w3-large">
+              <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
+            </p>
+            <p>
+              .Net Core , Terraform, Databricks, ADF, Angular 13/8/6/5, Azure
+              ChatBot, custom vision, LUIS AI, NLP, QnA Maker, Microservices,
+              Angular 1.5.2,Azure Redis Cache,Mongo Db,Cosmos Db,ASP.NET MVC
+              ,WEB API,Repository Pattern FW,Hangfire, Swagger
+              ,Serilog,Elastic Search,Event Store,Rabbit MQ,Azure Event
+              Sourcing,Service Fabric,Agile ,TFS, Docker, Containerization,
+              Kubernetes, DDD with solid principle Architecture,Identity
+              server 4 and SQL Server
+            </p>
+            <br />
+
+            <p class="w3-large w3-text-theme">
+              <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b>
+            </p>
+            <table>
+              <tr>
+                <td>
+                  ⮚  English
+                </td>
+                <td>
+                  ⮚ Telugu
+                </td>
+                <td>
+                  ⮚ Hindi
+                </td>
+              </tr>
+            </table>
+            <br />
+            <p class="w3-large w3-text-theme">
+              <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Education</b>
+            </p>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Intell Engineering College</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 -
+                2014
+              </h6>
+              <p>Electrical and Electronics Engineering</p>
               <hr />
+            </div>
 
-              <p class="w3-large">
-                <b
-                  ><i
-                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"
-                  ></i
-                  >Skills</b
-                >
+            <br />
+            <p class="w3-large w3-text-theme">
+              <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Projects</b>
+            </p>
+            <div class="w3-container">
+              <h5>Project 1</h5>
+              <h5 class="w3-opacity"><b>Payment Integrity with data Loads</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-certificate fa-fw w3-margin-right"></i><b>ROLE : </b>Software Engineering Lead (8
+                members in one Team, 6 members in Another Team delivery)
+              </h6>
+              <p>Payment integrity is a Hybrid cloud Application. Which deals with Health care client, claim data with
+                clients PI data . Which receives from ECG(Electronic Communication Gateway) in OnPrem in-house cloud
+                VMs. From there we need to Transform and filter malicious data and Process then loaded to Snow flake
+                Tables.Here, We have N numbers of business validation on PI data and claim information. After processing
+                these data to snowflake. Then notify to business owners and stake holders and Analytics teams</p>
+
+              <p> <b>Technologies</b> ASP.Net Core web API with C#, Asp.NET (ADO.NET), Azure datafactory, Snowflake,
+                Azure function, Keyvaluts and Terraform and scala,
+                Back End Microsoft SQL Server 2019</p>
+
+              <p> <b>Tools</b> MS Visual Studio-2022 , Visual code etc</p>
+
+              <p> <b>Framework</b> Asp.Net Core 6</p>
+
+              <p> <b>Client </b> Commercial clients (Entire US top clients)</p>
+              <hr />
+            </div>
+            <div class="w3-container">
+              <h5>Project 2</h5>
+              <h5 class="w3-opacity"><b>Audit Online</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-certificate fa-fw w3-margin-right"></i><b>ROLE : </b>Full Stack .Net Developer cum Lead
+              </h6>
+              <p>Digital. Dynamic. Cloud-based. Deloitte Audit, our global audit platform, brings bright minds,a
+                flexible methodology, and world-class audit technology together to deliver a differentiated audit.It is
+                a complete package for Auditors, Chartered Accountants which covers many tools for System through
+                Auditing and useful for sample testing, reporting with statutory authorities. Provide services for
+                Multi-Geo applications and Multi-Geo countries.</p>
+
+              <p> <b>Technologies</b> Asp.Net Core Web API with Micro Services Pattern, Microsoft Azure, Azure Search,
+                Angular</p>
+
+              <p> <b>Tools</b> MS Visual Studio-2022 , Visual code etc</p>
+
+              <p> <b>Framework</b> Asp.Net Core Core 6/.Net 6.0.2</p>
+
+              <p> <b>Client </b> Internal Audit Project (Deloitte Global)</p>
+              <hr />
+            </div>
+            <p class="w3-large w3-text-theme">
+              <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Responsibilities</b>
+            </p>
+            <div class="w3-container">
+              <p>
+                ⮚ Involved in requirement elaboration and business meetings with business owners
               </p>
               <p>
-                .Net Core , Terraform, Databricks, ADF, Angular 13/8/6/5, Azure
-                ChatBot, custom vision, LUIS AI, NLP, QnA Maker, Microservices,
-                Angular 1.5.2,Azure Redis Cache,Mongo Db,Cosmos Db,ASP.NET MVC
-                ,WEB API,Repository Pattern FW,Hangfire, Swagger
-                ,Serilog,Elastic Search,Event Store,Rabbit MQ,Azure Event
-                Sourcing,Service Fabric,Agile ,TFS, Docker, Containerization,
-                Kubernetes, DDD with solid principle Architecture,Identity
-                server 4 and SQL Server
+                ⮚ Project delivery and work allocation to fellow team members.
               </p>
-              <br />
-
-              <p class="w3-large w3-text-theme">
-                <b
-                  ><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i
-                  >Languages</b
-                >
+              <p>
+                ⮚ Involved in database & development and connecting with multiple teams to suggest best designs of
+                projects and design problem solving.
               </p>
-              <p>English</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div
-                  class="w3-round-xlarge w3-teal"
-                  style="height: 24px; width: 100%"
-                ></div>
-              </div>
-              <p>Telugu</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div
-                  class="w3-round-xlarge w3-teal"
-                  style="height: 24px; width: 100%"
-                ></div>
-              </div>
-              <p>Hindi</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div
-                  class="w3-round-xlarge w3-teal"
-                  style="height: 24px; width: 70%"
-                ></div>
-              </div>
-              <br />
-
-              <p class="w3-large w3-text-theme">
-                <b
-                  ><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i
-                  >Education</b
-                >
+              <p>
+                ⮚ Written stored procedures, functions, and Cursors
               </p>
-              <div class="w3-container">
-                <h5 class="w3-opacity"><b>Intell Engineering College</b></h5>
-                <h6 class="w3-text-teal">
-                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 -
-                  2014
-                </h6>
-                <p>Electrical and Electronics Engineering</p>
-                <hr />
-              </div>
+              <p>
+                ⮚ Involved in developing, unit testing and all release activities include Stage, UAT and Prod
+                deployments and validations.
+              </p>
+              <p>
+                ⮚ Development Life cycle end to end
+              </p>
+              <p>
+                ⮚ Code Reviews, Performance Testing using Application Insights and cost management
+              </p>
+              <p>
+                ⮚ Code Quality measurement with sonar cube and static and dynamic scans </p>
+              <hr />
             </div>
           </div>
-          <br />
-
-          <!-- End Left Column -->
         </div>
+        <br />
 
-        <!-- Right Column -->
-        <div class="w3-twothird">
-          <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Summary
-            </h2>
-            <div class="w3-container">
-              <p>
-                ⮚ Good knowledge in
-                Visual Studio.NET Framework 6, Core 2.1, 3.1,6 C#.NET, ASP.NET
-                Core, ASP.NET MVC, Web API, ADO.NET, Entity Framework, LINQ,
-                Micro services, Snowflake, Terraform.
-              </p>
-              <p>
-                ⮚ Extensive knowledge in writing queries in SQL server
-                2008/2012/2016/2019 Database Design and Maintenance.
-              </p>
-              <p>
-                ⮚ Developing SQL queries, stored procedures, Cursors, and Joins.
-              </p>
-              <p>
-                ⮚ Extensive knowledge on Azure or Windows Azure like Blobs,
-                Cosmos, ADFS, Service bus, Cognitive Services, Application
-                Insights, Azure SQL, Web jobs, Functions, Logic Apps, IAAS
-              </p>
-              <p>
-                ⮚ Hands-on writing Unit Test using MS Unit Test, MOQ Framework.
-              </p>
-              <p>
-                ⮚ Hands-on writing in developing applications using Repository
-                Pattern Architecture with DDD (Domain Driven Design) and Micro
-                services.
-              </p>
-              <p>
-                ⮚ I am exploring Machine Learning and Artificial
-                Intelligence(AI)using Python
-              </p>
-              <p>
-                ⮚ Good Knowledge of HTML, CSS, BOOTSTRAP, JavaScript, AJAX,
-                J-Query, and Angular.
-              </p>
-              <p>
-                ⮚ Proficient and well versed with Visual Studio
-                2010/12/13/15/17/19/22, Visual Code.
-              </p>
-              <p>
-                ⮚ Having self-motivation towards learning new technologies like
-                Swagger, NUGET, Hangfire, .Net Core, Rest Sharp, Payment
-                Gateways.
-              </p>
-              <p>
-                ⮚ Having good Knowledge in Bot Framework in Azure bot Services
-                Idol Search, LUIS (NLP), QnA Maker and Commerce Chatbot and
-                Information Chatbot
-              </p>
-              <p>
-                ⮚ Having good knowledge in System development life cycle like
-                Agile scrum
-              </p>
-              <p>
-                ⮚ I am Contributing to Open-source Like Read Docs, GIT Hub,
-                NuGet, Redis Cache, Hangfire, Swagger also I am Maintaining my
-                Blog <a href="http://mycodin.blogspot.com">Blog</a> will publish
-                articles
-              </p>
-              <p>
-                ⮚ Good knowledge in analyzing client requirements, delivering
-                exact requirements.
-              </p>
-              <p>
-                ⮚ Having strong analytical and problem-solving skills affording
-                timely solutions.
-              </p>
-              <p>
-                ⮚ I have certified in Microsoft certifications are
-                <b> 900,204,400,220, AI-102</b>
-              </p>
-
-              <hr />
-            </div>
-          </div>
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Work Experience
-            </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b>Software Engineering Lead / Optum Global India Pvt LTD</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2022 -
-                <span class="w3-tag w3-teal w3-round">Current</span>
-              </h6>
-              <p>
-                I am working as a Lead Software Engineer. I will involve in
-                architecture , Coding, performance, POC and Team activities. I
-                parallel working in multiple project with cutting edge
-                technologies like AI , it's, Azure,ML chat bots, .Net with React
-                and angular so on....
-              </p>
-              <hr />
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b>Assistant Manager / Deloitte India</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 -
-                Jul 2022
-              </h6>
-              <p>
-                I am working as a Technical Specilist. I will involve in
-                architecture , Coding, performance, POC and Team activities. I
-                parallel working in multiple project with cutting edge
-                technologies like AI , it's, Azure,ML chat bots, .Net with React
-                and angular so on....
-              </p>
-              <hr />
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b>Senior Azure Developer / Affluent Global Services</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 -
-                Aug 2019
-              </h6>
-              <p>
-                I am worked as a Sr Azure Developer. I have been working on
-                Azure,. Net core, Angular 8 and Idol search, Chat bots,
-                Cognitive services and Cosmos Db.
-              </p>
-              <br />
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b>Senior Web Developer / Ziraff Technologies</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2016 -
-                Apr 2018
-              </h6>
-              <p>
-                I worked as a Team lead in Ziraff Technologies . I worked in
-                technologies like Asp.net Core ,angular 5, angular 1.5.2,Azure
-                redis server,Mongo Db,Cosmos Db,ASP.NET MVC ,WEB API,REPOSITORY
-                FRAMEWORK,HANGFIRE ,SERILOG,ELASTIC SEARCH,EVENT STORE,Rabbit
-                mq,azure event source,Service fabric,Micro services,Agile
-                ,TFS,Docker,Containerization,kubernet,DDD with solid principle
-                architecture,Identity server 4 AND SQL SERVER. I AM WORKING IN
-                MY FREE TIME OPEN SOURCE FRAMEWORK IMPLEMENTATION AND
-                DEVELOPMENT.REDIS CACHING ATTRIBUTE LEVEL IMPLEMENTATION.
-              </p>
-              <br />
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b>Software Engineer / Srivis India</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2014 -
-                Dec 2015
-              </h6>
-              <p>
-                I worked as a Software engineer with basic C# , WCF, Web
-                services, Asp.net , Jquery, Azure, Angular
-              </p>
-              <br />
-            </div>
-          </div>
-
-          <!-- End Right Column -->
-        </div>
-
-        <!-- End Grid -->
+        <!-- End Left Column -->
       </div>
 
-      <!-- End Page Container -->
+      <!-- Right Column -->
+      <div class="w3-twothird">
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Summary
+          </h2>
+          <div class="w3-container">
+            <p>
+              ⮚ Good knowledge in
+              Visual Studio.NET Framework 6, Core 2.1, 3.1,6 C#.NET, ASP.NET
+              Core, ASP.NET MVC, Web API, ADO.NET, Entity Framework, LINQ,
+              Micro services, Snowflake, Terraform.
+            </p>
+            <p>
+              ⮚ Extensive knowledge in writing queries in SQL server
+              2008/2012/2016/2019 Database Design and Maintenance.
+            </p>
+            <p>
+              ⮚ Developing SQL queries, stored procedures, Cursors, and Joins.
+            </p>
+            <p>
+              ⮚ Extensive knowledge on Azure or Windows Azure like Blobs,
+              Cosmos, ADFS, Service bus, Cognitive Services, Application
+              Insights, Azure SQL, Web jobs, Functions, Logic Apps, IAAS
+            </p>
+            <p>
+              ⮚ Hands-on writing Unit Test using MS Unit Test, MOQ Framework.
+            </p>
+            <p>
+              ⮚ Hands-on writing in developing applications using Repository
+              Pattern Architecture with DDD (Domain Driven Design) and Micro
+              services.
+            </p>
+            <p>
+              ⮚ I am exploring Machine Learning and Artificial
+              Intelligence(AI)using Python
+            </p>
+            <p>
+              ⮚ Good Knowledge of HTML, CSS, BOOTSTRAP, JavaScript, AJAX,
+              J-Query, and Angular.
+            </p>
+            <p>
+              ⮚ Proficient and well versed with Visual Studio
+              2010/12/13/15/17/19/22, Visual Code.
+            </p>
+            <p>
+              ⮚ Having self-motivation towards learning new technologies like
+              Swagger, NUGET, Hangfire, .Net Core, Rest Sharp, Payment
+              Gateways.
+            </p>
+            <p>
+              ⮚ Having good Knowledge in Bot Framework in Azure bot Services
+              Idol Search, LUIS (NLP), QnA Maker and Commerce Chatbot and
+              Information Chatbot
+            </p>
+            <p>
+              ⮚ Having good knowledge in System development life cycle like
+              Agile scrum
+            </p>
+            <p>
+              ⮚ I am Contributing to Open-source Like Read Docs, GIT Hub,
+              NuGet, Redis Cache, Hangfire, Swagger also I am Maintaining my
+              Blog <a href="http://mycodin.blogspot.com">Blog</a> will publish
+              articles
+            </p>
+            <p>
+              ⮚ Good knowledge in analyzing client requirements, delivering
+              exact requirements.
+            </p>
+            <p>
+              ⮚ Having strong analytical and problem-solving skills affording
+              timely solutions.
+            </p>
+            <p>
+              ⮚ I have certified in Microsoft certifications are
+              <b> 900,204,400,220, AI-102</b>
+            </p>
+
+            <hr />
+          </div>
+        </div>
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience
+          </h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b>Software Engineering Lead / Optum Global India Pvt LTD</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2022 -
+              <span class="w3-tag w3-teal w3-round">Current</span>
+            </h6>
+            <p>
+              I am working as a Lead Software Engineer. I will involve in
+              architecture , Coding, performance, POC and Team activities. I
+              parallel working in multiple project with cutting edge
+              technologies like AI , it's, Azure,ML chat bots, .Net with React
+              and angular so on....
+            </p>
+            <hr />
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b>Assistant Manager / Deloitte India</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 -
+              Jul 2022
+            </h6>
+            <p>
+              I am working as a Technical Specilist. I will involve in
+              architecture , Coding, performance, POC and Team activities. I
+              parallel working in multiple project with cutting edge
+              technologies like AI , it's, Azure,ML chat bots, .Net with React
+              and angular so on....
+            </p>
+            <hr />
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b>Senior Azure Developer / Affluent Global Services</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 -
+              Aug 2019
+            </h6>
+            <p>
+              I am worked as a Sr Azure Developer. I have been working on
+              Azure,. Net core, Angular 8 and Idol search, Chat bots,
+              Cognitive services and Cosmos Db.
+            </p>
+            <br />
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b>Senior Web Developer / Ziraff Technologies</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2016 -
+              Apr 2018
+            </h6>
+            <p>
+              I worked as a Team lead in Ziraff Technologies . I worked in
+              technologies like Asp.net Core ,angular 5, angular 1.5.2,Azure
+              redis server,Mongo Db,Cosmos Db,ASP.NET MVC ,WEB API,REPOSITORY
+              FRAMEWORK,HANGFIRE ,SERILOG,ELASTIC SEARCH,EVENT STORE,Rabbit
+              mq,azure event source,Service fabric,Micro services,Agile
+              ,TFS,Docker,Containerization,kubernet,DDD with solid principle
+              architecture,Identity server 4 AND SQL SERVER. I AM WORKING IN
+              MY FREE TIME OPEN SOURCE FRAMEWORK IMPLEMENTATION AND
+              DEVELOPMENT.REDIS CACHING ATTRIBUTE LEVEL IMPLEMENTATION.
+            </p>
+            <br />
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b>Software Engineer / Srivis India</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2014 -
+              Dec 2015
+            </h6>
+            <p>
+              I worked as a Software engineer with basic C# , WCF, Web
+              services, Asp.net , Jquery, Azure, Angular
+            </p>
+            <br />
+          </div>
+        </div>
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-envelope fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Current Roles & Responsibilities
+          </h2>
+          <div class="w3-container">
+            <p></p>
+            ⮚ I am working in Optum as a Software Engineering Lead on an Internal Project with a Multi-Tenancy
+            Application.
+            </p>
+            <p>
+              ⮚ In the current project my responsibilities as a Full-stack coding , Code review and Team Management plus
+              project deliverables.
+            </p>
+            <p>
+              ⮚ I worked in multiple domains Human Resource, Audit, Client Management, Workflow Project, Health care and
+              Accounting.
+            </p>
+            <p>
+              ⮚ At Present, I am working on ASP.Net Core web API with C#, Asp.NET (ADO.NET), Azure datafactory,
+              Snowflake, Azure function, Keyvaluts and Terraform and scala etc.
+            </p>
+            <p>
+              ⮚ I am majorly involved in End To End development life cycle.
+            </p>
+            <p>
+              ⮚ We are following the Scaled Agile process Scrum methodology (SAFe5 Practicenor).
+            </p>
+            <p>
+              ⮚ Apart from that, in my Interest, I am posting articles in my Blog (http://mycodin.blogspot.com).
+            </p>
+            <p>
+              ⮚ I am working on multiple projects at a time. One project to handle delivery and another project
+              development cum delivery.
+            </p>
+            <p>
+              ⮚ I am involving in Requirement Analysis, Clarifications, Database Design, Task assignment, Knowledge
+              sharing, Brainstorming session, Highlevel and low level designing and suggesting best approaches to
+              different teams,
+            </p>
+            <p>
+              ⮚ Participating on community of practice as Core Team Lead
+            </p>
+            <hr />
+          </div>
+        </div>
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
     </div>
 
-    <footer class="w3-container w3-teal w3-center w3-margin-top">
-      <p>Find me on social media.</p>
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </footer>
-  </body>
+    <!-- End Page Container -->
+  </div>
+
+  <footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+</body>
+
 </html>
